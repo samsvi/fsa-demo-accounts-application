@@ -26,5 +26,15 @@ Run with config
 java -jar  accounts-application-0.0.1-SNAPSHOT.jar --spring.config.location=../config/application.yml
 ```
 
+Show account with specific ID
+```
+@RequestMapping("/accounts/{id}")
+```
+
+Show all accounts
+```
+@RequestMapping("/accounts")
+```
+
 ### Copyrights
 (C) Stefan Monko (monkos@posam.sk)
