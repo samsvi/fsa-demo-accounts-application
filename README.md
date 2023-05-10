@@ -8,6 +8,8 @@ Simple Java demo app to simulate backend and API
 - SpringBoot 3.0.6
 - Java JDK 17
 
+### Version with DB
+Check brach **withdb** for version using MySqlDb
 
 ### How to use
 
@@ -35,6 +37,10 @@ Show all accounts
 ```
 @RequestMapping("/accounts")
 ```
+
+### Add more data
+
+In **fsa-demo-accounts-application/src/main/java/posam/sk/accountsapplication/domain/AccountService.java** add more data to **accountStream**
 
 ### Copyrights
 (C) Stefan Monko (monkos@posam.sk)
